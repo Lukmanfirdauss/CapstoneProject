@@ -1,0 +1,58 @@
+body{
+  font-family: monospace;
+  font-size: 13pt;
+}
+
+th{
+  text-align: left;
+}
+
+img{
+  width: 65%;
+  margin-bottom: 10px;
+}
+
+.kotak{
+  border:1px solid black;
+  widht:60px;
+  margin:10px auto;
+  padding:20px;
+}
+
+.judul{
+  text-align: center;
+  background: goldenrod;
+}
+
+.blok{
+  overflow: hidden;
+}
+
+.kiri{
+  widht:20%
+  float:left;
+}
+
+.kanan{
+  widht:70%;
+  padding:0px;
+  float:left;
+}
+
+@media only screen and (max-width:768px){
+  .kotak{
+    width:100%;
+    padding:0px;
+    border:none;
+  }
+
+  .kiri{
+    width:100%;
+    padding:0;
+  }
+
+  .kann{
+    width: 100%;
+    padding:0;
+  }
+}
